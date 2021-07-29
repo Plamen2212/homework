@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+</head>
+<body>
+    <h1>Регистрация</h1>
+    <form action="cgi-bin/registration.py">
+        <fieldset>
+        <legend>Лични данни:</legend>
+        <fieldset>
+        <label for="name">Име:</label>
+        <input type="text" id="name" name="Име:" autofocus required placeholder="малко име, на латиница"><br>
+        
+        <label for="name">Име:</label>
+        <input type="text" id="Име" name="Име:" required placeholder="фамилия, на латиница"><br>
+        
+        <label for="Мъж">Пол:</label>
+        <input type="Radio" id="Мъж" name="Пол:" value="Мъж" required>
+        <label for="Мъж">Мъж:</label>
+        <input type="Radio" id="Жена" name="Пол:" value="Жена" required>
+        <label for="Жена">Жена:</label><br>
+        </fieldset>
+         
+        <label for="напишетенинещо">Коментар:</label><br>
+        
+        <textarea name="" id="напишетенинещо" cols="30" rows="3" placeholder="напишете ни нещо"></textarea><br>
+       
+       <input type="submit" name="izprati" value="Изпрати">
+       <br><br><br>
+        </fieldset>
+    </form>
+</body>
+</html>
